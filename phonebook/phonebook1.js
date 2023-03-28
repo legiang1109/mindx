@@ -60,7 +60,7 @@ function addContact(name, phone) {
 function render(){
     table.innerHTML = "";
     for(let i = 0; i < phonebook.length; i++){
-        table.innerHTML += `<li><p>${phonebook[i].name} <span>${phonebook[i].phone}</span></p></li>`
+        table.innerHTML += `<div><p>${phonebook[i].name} </p><p>${phonebook[i].phone}</p></div>`
     }
     return table
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Phonebook</title>
 </head>
 <body>
@@ -14,12 +15,14 @@
     <button type="submit">Thêm</button>
     </form>
     <hr>
-    <div>
+    <div class="list">
         <input type="text" id="search-input" placeholder="Tìm kiếm" name="search">
         <button onclick="searchContacts()" id="search-btn">Tìm</button>
         <button onclick="removeNumb()" id="delete-btn">Xóa</button>
     </div>
+    <br>
     <h2>Contact List</h2>
+    <br>
     <ul id="phonebook-table">
         
     </ul>
